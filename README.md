@@ -13,4 +13,5 @@ So their Seat allotted would be in College 5 and College 4 respectively.
 
 * Here, rank and category of the Student can be generated randomly.So the only input we need to take is the preference order of that Student.The Actual seat allocation part will be filled by 40%GEN, 30%OBC, 20%SC and 10%ST.
 
-* Following this we have made use of Gale-Shapley's Stable Marriage Algorithm wherein “Student’s preference order” role is played by Man and “College Seat” role is played by women.
+* Following this we have made use of Gale-Shapley's Stable Marriage Algorithm (O(n2) 
+) wherein “Student’s preference order” role is played by Man and “College Seat” role is played by women.
